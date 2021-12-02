@@ -45,7 +45,8 @@ export default function Home() {
           <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
 
           {/* Avatar */}
-          <Avatar url="https://avatars.githubusercontent.com/u/59863035?v=4" />
+          <Avatar url="https://avatars.githubusercontent.com/u/59863035?v=4" 
+          />
         </div>
       </header>
 
