@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import {API_KEY, CONTEXT_KEY} from "../keys";
 import Response from "../Response";
 import { useRouter } from "next/router";
+import SearchResults from "../components/SearchResults";
 
 function Search({ results }) {
     const router = useRouter();
@@ -18,6 +19,7 @@ function Search({ results }) {
             {/* Header */}
             <Header />
             {/* Search Results */}
+            <SearchResults results={results} />
 
         </div>
     )
